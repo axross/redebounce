@@ -49,7 +49,7 @@ class WaitFor600ms extends PureComponent {
       <div>
         <input onChange={this.onChangeInput} />
 
-        <Redebounce dueTime={300} value={this.state.value}>
+        <Redebounce dueTime={600} value={this.state.value}>
           {value => <input value={value} />}
         </Redebounce>
       </div>
